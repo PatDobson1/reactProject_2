@@ -1,0 +1,49 @@
+
+// -- Header -------------------------------------------------------------------
+
+.header{
+    position: relative;
+    border-bottom: 1px solid $dark;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+.logo{
+    background-image: url('/logo.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: $dark;
+    border-radius: 15px;
+    height: 80px;
+    width: 80px;
+    display: block;
+    position: relative;
+    span{
+        font-size: 3em;
+        position: absolute;
+        top: 18px;
+        left: 90px;
+        font-family: 'Roboto Slab', serif;
+        color: $light;
+        text-shadow: 0 2px 5px $darkest;
+    }
+}
+
+.menu{
+    padding: 20px 0 0 0;
+    margin: 20px 0 0 0;
+    border-top: 1px solid $dark;
+    text-align: right;
+    a{
+        border: 1px solid $light;
+        padding: 5px 10px;
+        margin: 0 0 0 20px;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        &:hover{
+            background-color: $light;
+            color: $darkest;
+        }
+    }
+}
