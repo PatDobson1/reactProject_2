@@ -11,12 +11,16 @@
 class Header extends React.Component{
     constructor(props){
         super(props);
+        this.menuHandler = this.menuHandler.bind(this);
+    }
+    menuHandler(target){
+        this.props.menuHandler(target);
     }
     render(){
         return(
             <div className="header">
                 <Logo position="header" />
-                <Menu />
+                <Menu data={this.props.data} menuHandler={this.menuHandler} />
             </div>
         )
     }
