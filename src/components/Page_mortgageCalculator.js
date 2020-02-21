@@ -14,7 +14,7 @@ class Page_mortgageCalculator extends React.Component{
         this.submitHandler = this.submitHandler.bind(this);
         this.changeHandler = this.changeHandler.bind(this);
         this.state = {
-            'loanAmount' : '10000',
+            'loanAmount' : 10000,
             'term' : 5,
             'interestRate' : 9,
             'monthlyPayment' : 0

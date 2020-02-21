@@ -14,10 +14,19 @@
     }
 // -----------------------------------------------------------------------------
 
-const tester = () => {
-    return "tester";
-}
+// -- Investment calculator ----------------------------------------------------
+    const investmentCalculator = data => {
+        const investment = parseFloat(data.investment);
+        const term = parseFloat(data.term);
+        const interestRate = parseFloat(data.interestRate) / 100;
+        let finalValue = investment;
+        for( let i = 0; i < data.term; i++ ){
+            finalValue = finalValue + (finalValue * interestRate);
+        }
+        return finalValue.toFixed(2);
+    }
+// -----------------------------------------------------------------------------
 
 // -- Exported functions -------------------------------------------------------
-    export { mortgageCalculation, tester };
+    export { mortgageCalculation, investmentCalculator };
 // -----------------------------------------------------------------------------

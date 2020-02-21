@@ -7,6 +7,10 @@
         "mortgageCalculator" : {
             "title" : "Mortgage calculator",
             "link" : "mortgageCalculator"
+        },
+        "investmentCalculator" : {
+            "title" : "Investment calculator",
+            "link" : "investmentCalculator"
         }
     }
 }
