@@ -6,7 +6,7 @@ The site is simple but includes a number of calculators which are contained in a
 
 The site also uses HTML5, CSS3 & SCSS.
 
-The live site can be found at project2.patrickdobson.co.uk
+The live site can be found at https://project2.patrickdobson.co.uk
 
 For domestic customers, please visit www.moonspace.co.uk
 
