@@ -20,7 +20,7 @@ class Header extends React.Component{
         return(
             <div className="header">
                 <Logo position="header" />
-                <Menu data={this.props.data} menuHandler={this.menuHandler} />
+                <Menu data={this.props.data} menuHandler={this.menuHandler} position="headerMenu" />
             </div>
         )
     }

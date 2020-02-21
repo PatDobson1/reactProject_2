@@ -22,11 +22,9 @@ class Menu extends React.Component{
             menuItems.push(
                 <MenuItem key={key} link={pageData[key].link} title={pageData[key].title} menuHandler={this.menuHandler} />
             )
-            console.log(pageData[key].title);
         })
-        console.log(this.props.data);
         return(
-            <div className="menu">
+            <div className={'menu ' + this.props.position}>
                 {menuItems}
             </div>
         )

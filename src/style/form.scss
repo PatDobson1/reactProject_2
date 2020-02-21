@@ -1,0 +1,36 @@
+
+form{
+    border: 1px solid $light;
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    label{
+        display: inline-block;
+        width: 200px;
+    }
+    input{
+        border: 1px solid $light;
+        padding: 5px 10px 9px 10px;
+        background-color: $white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.1em;
+        &[type=submit]{
+            margin: 0 0 0 200px;
+            padding: 5px 20px;
+
+        }
+        + span{
+            margin: 0 0 0 10px;
+            font-style: italic;
+        }
+    }
+}
+.resultsHolder{
+    border: 1px solid $light;
+    padding: 20px;
+    width: 600px;
+    margin: 20px auto;
+    #errorMessage{
+        display: none;
+    }
+}

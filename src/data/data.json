@@ -7,10 +7,6 @@
         "mortgageCalculator" : {
             "title" : "Mortgage calculator",
             "link" : "mortgageCalculator"
-        },
-        "etsyCalculator" : {
-            "title" : "Etsy calculator",
-            "link" : "etsyCalculator"
         }
     }
 }

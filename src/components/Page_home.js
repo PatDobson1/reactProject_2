@@ -4,26 +4,21 @@
 // -----------------------------------------------------------------------------
 
 // -- Components ---------------------------------------------------------------
-    import Menu from './Menu';
+
 // -----------------------------------------------------------------------------
 
-class Footer extends React.Component{
+class Page_home extends React.Component{
     constructor(props){
         super(props);
-        this.menuHandler = this.menuHandler.bind(this);
-    }
-    menuHandler(target){
-        this.props.menuHandler(target);
     }
     render(){
-        const date = new Date().getFullYear();
         return(
-            <div className="footer">
-                <Menu data={this.props.data} position="footerMenu" menuHandler={this.menuHandler} />
-                <div>All content &copy;{date} Calculations</div>
-            </div>
+            <>
+                <h1>Welcome to the Calculations website</h1>
+                <p>Within this website you will find a variety of calculators that will (hopefully) help you in performing those sometimes tricky calculations that plague normal life.</p>
+            </>
         )
     }
 }
 
-export default Footer;
+export default Page_home;

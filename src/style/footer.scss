@@ -5,4 +5,16 @@
     border-top: 1px solid $dark;
     padding: 20px;
     margin: 20px 0 0 0;
+    font-size: 0.8em;
+}
+.footerMenu{
+    float: right;
+    a{
+        margin: 0 0 0 20px;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        &:hover{
+            color: $darkest;
+        }
+    }
 }
